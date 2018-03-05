@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.stephan.advancedtweets">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:name="com.example.stephan.advancedtweets.TwitterApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_twitter"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_twitter_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="AA_DB_NAME"
+            android:value="RestClient.db" />
+        <meta-data
+            android:name="AA_DB_VERSION"
+            android:value="2" />
+        <meta-data
+            android:name="AA_MODELS"
+            android:value="com.example.stephan.android_gtwitter.model.Media, com.example.stephan.android_gtwitter.model.User, com.example.stephan.android_gtwitter.model.Tweet" />
+
+        <activity
+            android:name="com.example.stephan.advancedtweets.view.activities.SplashActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.stephan.advancedtweets.view.activities.LoginActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="@string/intent_host"
+                    android:scheme="@string/intent_scheme" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.stephan.advancedtweets.view.activities.TweetDetailActivity"
+            android:parentActivityName="com.example.stephan.advancedtweets.view.activities.TimelineActivity"
+            android:windowSoftInputMode="adjustResize">
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.stephan.advancedtweets.view.activities.TimelineActivity"/>
+        </activity>
+        <activity
+            android:name="com.example.stephan.advancedtweets.view.activities.ProfileActivity"
+            android:launchMode="singleTop"
+            android:parentActivityName="com.example.stephan.advancedtweets.view.activities.TimelineActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.stephan.advancedtweets.view.activities.TimelineActivity"/>
+        </activity>
+        <activity
+            android:name="com.example.stephan.advancedtweets.view.activities.UserListActivity"
+            android:parentActivityName="com.example.stephan.advancedtweets.view.activities.ProfileActivity">
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.stephan.advancedtweets.view.activities.TimelineActivity"/>
+        </activity>
+        <activity
+            android:name="com.example.stephan.advancedtweets.view.activities.TimelineActivity"
+            android:launchMode="singleTop"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+    </application>
+
+</manifest>

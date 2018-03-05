@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://C:\Users\Stephan\Documents\PERSONNEL\FDS\Android\TP\github\MySimpleTweetsAdvanced\Android_GTwitter.iml" filepath="C:\Users\Stephan\Documents\PERSONNEL\FDS\Android\TP\github\MySimpleTweetsAdvanced\Android_GTwitter.iml" />
+      <module fileurl="file://C:\Users\Stephan\Documents\PERSONNEL\FDS\Android\TP\github\MySimpleTweetsAdvanced\Android_GTwitter_Fragments.iml" filepath="C:\Users\Stephan\Documents\PERSONNEL\FDS\Android\TP\github\MySimpleTweetsAdvanced\Android_GTwitter_Fragments.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MySimpleTweetsAdvanced.iml" filepath="$PROJECT_DIR$/MySimpleTweetsAdvanced.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+    </modules>
+  </component>
+</project>

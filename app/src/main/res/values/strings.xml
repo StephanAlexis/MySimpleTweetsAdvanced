@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">AdvancedTwitter</string>
+    <string name="login_label">Log in</string>
+    <string name="intent_scheme">oauth</string>
+    <string name="intent_host">gtwitter</string>
+    <string name="compose_label">Compose</string>
+    <string name="compose_hint">New tweet here...</string>
+    <string name="welcome_to_twitter">Welcome to Twitter</string>
+    <string name="welcome_description">The world at the tip of your finger</string>
+    <string name="twitter_logo_content_description">Twitter Logo</string>
+    <string name="what_s_happening">Say something?</string>
+    <string name="tweet_action">Tweet</string>
+    <string name="media">Media</string>
+    <string name="gif">GIF</string>
+    <string name="location">Location</string>
+    <string name="_140">140</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="dummy_screenname">\@TejenPatel</string>
+    <string name="dummy_name">Tejen Patel</string>
+    <string name="separatorSymbol">•</string>
+    <string name="sample_tweet_body"><![CDATA[Learn how @BAPS encourages civic participation & dialogue with elected officials and public servants in the US by following @BAPS_PubAffairs]]></string>
+    <string name="title_activity_timeline">TimelineActivity</string>
+
+    <string name="close">Close</string>
+    <string name="tweet">Tweet</string>
+    <string name="tweetLimit">140</string>
+    <string name="statusHint">What\'s happening?</string>
+    <string name="reply">Reply</string>
+    <string name="replyTo">Reply to \</string>
+    <string name="retweet">Retweets</string>
+    <string name="likes">Likes</string>
+
+    <string name="following">following</string>
+    <string name="following_title">Following</string>
+    <string name="followers">followers</string>
+    <string name="followers_title">Followers</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_profile">Profile</string>
+    <string name="nav_media">Media</string>
+    <string name="nav_lists">Lists</string>
+    <string name="nav_message">Message</string>
+
+    <string name="tab_home">Home</string>
+    <string name="tab_mention">Mentions</string>
+
+    <string name="action_settings">Settings</string>
+
+</resources>
